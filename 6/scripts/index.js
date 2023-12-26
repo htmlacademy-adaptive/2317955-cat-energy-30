@@ -1,1 +1,0 @@
-var t="header__nav",e="header__menu-toggle",c="--is-opened",s="--is-closed",n=document.querySelector(`.${t}`),o=document.querySelector(`.${e}`),l=()=>{n.classList.toggle(`${t}${c}`),n.classList.toggle(`${t}${s}`),o.classList.toggle(`${e}${c}`),o.classList.toggle(`${e}${s}`)},i=()=>{n.classList.add(`${t}${s}`),o.classList.add(`${e}${s}`),o.addEventListener("click",l)};i();
